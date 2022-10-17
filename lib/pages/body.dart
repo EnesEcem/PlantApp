@@ -39,7 +39,7 @@ class Body extends StatelessWidget {
                         text: TextSpan(
                           children: [
                             TextSpan(
-                                text: 'sasdasd',
+                                text: 'Samantha',
                                 style: Theme.of(context).textTheme.button)
                           ],
                         ),
