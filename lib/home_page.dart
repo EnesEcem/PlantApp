@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:plant_app/constants.dart';
 import 'package:plant_app/pages/body.dart';
+import 'package:plant_app/pages/my_bottomnavbar.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -9,7 +10,8 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: BuildAppBar(),
-      body: Body(),
+      body: HomeBody(),
+      bottomNavigationBar: MyBottomNavBar(),
     );
   }
 

@@ -34,9 +34,7 @@ class HeaderWithSearchBox extends StatelessWidget {
                 Text(
                   'Hi Enes Ece!',
                   style: Theme.of(context).textTheme.headline5?.copyWith(
-                        color: Colors.white,
-                        fontWeight: FontWeight.bold,
-                      ),
+                      color: Colors.white, fontWeight: FontWeight.bold),
                 ),
                 Image.asset("lib/assets/images/logo.png")
               ],
